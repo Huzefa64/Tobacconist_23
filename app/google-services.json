@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "214756006101",
+    "project_id": "e-khokha-app",
+    "storage_bucket": "e-khokha-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214756006101:android:673e10e044b66ae22e6a5c",
+        "android_client_info": {
+          "package_name": "com.huzefa.e_khokhaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "214756006101-5lucn5dc1qpjfm87iq17b3lm2ecobu0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlKJYqdYbHv7_Shd7ApJ25gZDYdfnfosU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "214756006101-5lucn5dc1qpjfm87iq17b3lm2ecobu0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

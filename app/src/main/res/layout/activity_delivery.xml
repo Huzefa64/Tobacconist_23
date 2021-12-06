@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ddl"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#3fff"
+        android:gravity="center"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-KHOKHA"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+        <EditText
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Choose Your Brand"
+            android:textColorHint="#ffffff"
+            />
+
+        <RadioGroup
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            >
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="CAPSTAN"
+                android:textColor="#ffffff"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="DUNHILL"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MALBORO"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="DAVIDOFF"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="BENSON AND HEDGE"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="GOLD LEAF"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="MILANO"
+                android:textColor="@color/white"
+                />
+        </RadioGroup>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/btn56"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="NEXT"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button2"
+            android:textColor="#FFFBF6"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
